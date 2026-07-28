@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Neon Reef — Three.js WebGPU</title>
+<meta name="description" content="A WebGPU-first Three.js scene with automatic WebGL2 fallback: TSL node materials, 900 instanced shards, one draw call.">
+<style>
+  :root { color-scheme: dark }
+  html,body { margin:0; height:100%; background:#05060d; overflow:hidden;
+              font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace; color:#cbd5e1 }
+  canvas { display:block }
+  #hud { position:fixed; left:16px; top:14px; white-space:pre; pointer-events:none;
+         text-shadow:0 1px 3px #000; letter-spacing:.02em }
+  #tag { position:fixed; right:16px; bottom:12px; opacity:.55; pointer-events:none }
+</style>
+<script src="https://a.hanzo.ai/analytics.js" data-org="hanzo" crossorigin="anonymous" defer></script>
+<script src="https://a.hanzo.ai/chat.js" data-org="hanzo" data-mode="site" crossorigin="anonymous" defer></script>
+</head>
+<body>
+<div id="hud">loading…</div>
+<div id="tag">Neon Reef · three.js · hanzo.app</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
